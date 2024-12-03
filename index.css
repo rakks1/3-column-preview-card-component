@@ -20,8 +20,6 @@ body{
     .one{
       background-color: hsl(31, 77%, 52%);
       grid-area: one;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
     }
     .two{
       background-color: hsl(184, 100%, 22%);
@@ -30,9 +28,6 @@ body{
     .three{
       background-color: hsl(179, 100%, 13%);
       grid-area: three;
-      border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
-  
     }
    .txt{
        width: 220px;
@@ -91,13 +86,30 @@ body{
     .main{
      justify-content: center;
    }
-
+     .one{
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+         .three{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+  
+    }
 }
 @media screen and (min-width:700px) and (max-width:1000px){
     .hero{
        position: relative;
        top: 100px;
        bottom:100px
+    }
+             .one{
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+         .three{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+  
     }
 }
 @media screen and (min-width:300px) and (max-width:700px){
